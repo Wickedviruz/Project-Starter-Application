@@ -29,6 +29,7 @@ class ProjectManager(QObject):
         else:
             self.show_message_box("Fel", "Det uppstod ett fel vid skapandet av projektet.")
 
+    # En funktion för att visa ett meddelande till användaren
     def show_message_box(self, title, message):
         msg_box = QMessageBox()
         msg_box.setWindowTitle(title)
@@ -41,7 +42,7 @@ if __name__ == "__main__":
 
     # Sätt organisationens namn och domän för att spara inställningar
     app.setOrganizationName("testing")
-    app.setOrganizationDomain("swevolutions.com")
+    app.setOrganizationDomain("test.se")
 
     # Skapa en QML-applikationsmotor och en projektmanager-instans
     engine = QQmlApplicationEngine()

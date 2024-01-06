@@ -19,7 +19,7 @@ ApplicationWindow {
         // Style the project type selector
         ComboBox {
             id: projectType
-            model: ["Flask", "Tkinter", "Command Line"]
+            model: ["Flask", "Tkinter", "PyQT", "Command Line"]
             Layout.fillWidth: true
             font.pixelSize: 16
             background: Rectangle {
